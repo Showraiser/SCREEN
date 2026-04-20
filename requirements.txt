@@ -1,0 +1,8 @@
+torch
+git+https://github.com/openai/CLIP.git
+Pillow
+numpy
+scikit-learn
+faiss-cpu
+pandas
+joblib
