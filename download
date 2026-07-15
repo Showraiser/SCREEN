@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# Large generated artefacts — do NOT commit these
+frames/
+clip_features/
+index/
+temp_query_frames/
+
+# FAISS / model files
+*.index
+*.npy
+*.joblib
+*.pkl
+
+# Metadata output (the input template is committed, not the generated one)
+index/metadata.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
